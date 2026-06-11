@@ -1,5 +1,5 @@
 import ContactForm from "../components/ContactForm";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 function Contact() {
@@ -21,8 +21,16 @@ function Contact() {
             <h2 className="text-xl font-semibold mb-4">Reach Out Directly</h2>
             <ul className="space-y-4 text-sm">
               <li className="flex items-center space-x-2">
+                <FaMapMarkerAlt className="text-blue-400" />
+                <span>Boston, MA</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <FaPhone className="text-green-400" />
+                <a href="tel:+19723489762" className="underline">+1 972-348-9762</a>
+              </li>
+              <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-blue-400" />
-                <span>saivardhanreddypathuri@gmail.com</span>
+                <a href="mailto:saivardhanreddypathuri@gmail.com" className="underline">saivardhanreddypathuri@gmail.com</a>
               </li>
               <li className="flex items-center space-x-2">
                 <FaGithub className="text-white" />
@@ -32,23 +40,14 @@ function Contact() {
               </li>
               <li className="flex items-center space-x-2">
                 <FaLinkedin className="text-blue-500" />
-                <a href="https://linkedin.com/in/vardhanreddy53" target="_blank" rel="noreferrer" className="underline">
-                  linkedin.com/in/vardhanreddy53
+                <a href="https://linkedin.com/in/saivardhanreddypathuri" target="_blank" rel="noreferrer" className="underline">
+                  linkedin.com/in/saivardhanreddypathuri
                 </a>
               </li>
               <li className="flex items-center space-x-2">
                 <SiLeetcode className="text-yellow-500" />
                 <a href="https://leetcode.com/u/vardhanreddy53/" target="_blank" rel="noreferrer" className="underline">
                   leetcode.com/u/vardhanreddy53
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/resume/Pathuri_vardhan_resume.pdf"
-                  download
-                  className="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg btn-glow"
-                >
-                  Download Resume
                 </a>
               </li>
             </ul>

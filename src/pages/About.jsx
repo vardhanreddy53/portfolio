@@ -8,37 +8,60 @@ function About() {
         <h1 className="text-4xl font-bold gradient-text text-center">About Me</h1>
 
         <p className="text-gray-300 text-lg leading-relaxed text-center text-shadow-glow">
-          Hi! I'm <strong>Pathuri Sai Vardhan Reddy</strong>, a Computer Science student at Geethanjali College of Engineering & Technology with a CGPA of 8.2.
-          I’m passionate about building web apps and solving algorithmic challenges.
+          Hi! I'm <strong>Sai Vardhan Reddy Pathuri</strong>, a Master's student in Computer Science at
+          Northeastern University (Khoury College) with a focus on applied machine learning and the
+          engineering work that gets models into production. I'm actively seeking Summer/Fall 2026
+          software engineering and ML internships and co-ops.
         </p>
 
         {/* Education */}
         <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up">
           <h2 className="text-2xl font-semibold text-blue-400">Education</h2>
-          <ul className="list-disc list-inside text-gray-300">
-            <li><strong>B.Tech:</strong> GCET (2021–2025) – CGPA 8.2</li>
-            <li><strong>Intermediate:</strong> Nano Junior College – 94%</li>
-            <li><strong>High School:</strong> BVBPS – 84%</li>
+          <ul className="list-disc list-inside text-gray-300 space-y-2">
+            <li>
+              <strong>M.S. Computer Science</strong> — Northeastern University, Khoury College (Sep 2025 – Dec 2027) — GPA 3.6/4.0
+              <br />
+              <span className="text-gray-400 text-sm ml-5">Coursework: Machine Learning, NLP, Web Development, Algorithms, Cloud Computing, MLOps, Program Design Paradigms</span>
+            </li>
+            <li>
+              <strong>B.Tech, Computer Science</strong> — Geethanjali College of Engineering & Technology (Sep 2021 – Aug 2025) — CGPA 8.2
+              <br />
+              <span className="text-gray-400 text-sm ml-5">Coursework: Machine Learning, Artificial Intelligence, Algorithms, DBMS, Operating Systems, OOP, Software Engineering, DAA</span>
+            </li>
           </ul>
         </div>
 
-        {/* Skills */}
+        {/* Experience */}
         <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up" data-aos-delay="100">
+          <h2 className="text-2xl font-semibold text-blue-400">Experience</h2>
+          <div className="text-gray-300">
+            <p className="font-semibold">Teaching Assistant, Data Structures & Algorithms — Smart Interviews</p>
+            <p className="text-sm text-gray-400">Aug 2024 – Mar 2025 · Hyderabad, India</p>
+            <ul className="list-disc list-inside text-sm mt-2 space-y-1">
+              <li>Mentored 150+ students across beginner-to-advanced DSA tracks; designed practice sets and mock interviews modeled on FAANG-style technical screens.</li>
+              <li>Led 30+ live problem-solving sessions and Q&A meetings, with measurable improvements in student contest performance.</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Skills */}
+        <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up" data-aos-delay="200">
           <h2 className="text-2xl font-semibold text-blue-400">Skills</h2>
-          <ul className="list-disc list-inside text-gray-300">
-            <li><strong>Languages:</strong> Java, Python, C/C++, JavaScript, SQL</li>
-            <li><strong>Web:</strong> HTML, CSS, Node.js, React.js, Flask</li>
-            <li><strong>Tools:</strong> Git, MongoDB, VS Code, Jupyter Notebook</li>
-            <li><strong>Libraries:</strong> Scikit-learn, Pandas, NumPy, TensorFlow</li>
+          <ul className="list-disc list-inside text-gray-300 space-y-1">
+            <li><strong>Core ML:</strong> PyTorch, Hugging Face Transformers, scikit-learn, LightGBM, SHAP</li>
+            <li><strong>Data:</strong> Pandas, NumPy, spaCy, Feature Engineering, Cross-Validation, SMOTE</li>
+            <li><strong>Languages:</strong> Python, Java, JavaScript/TypeScript, SQL</li>
+            <li><strong>Backend:</strong> Flask, FastAPI, Node.js, Express, Next.js, REST APIs</li>
+            <li><strong>Cloud & Deployment:</strong> AWS (IAM, VPC, SageMaker, Lambda, EC2, S3, Textract, Bedrock, DynamoDB, CloudWatch, SNS, EventBridge), Terraform, Docker, Kubernetes, GitHub Actions, Vercel, Render</li>
+            <li><strong>Databases:</strong> MongoDB (Atlas, Mongoose), PostgreSQL, MySQL</li>
           </ul>
         </div>
 
         {/* Problem Solving */}
-        <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up" data-aos-delay="200">
+        <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up" data-aos-delay="300">
           <h2 className="text-2xl font-semibold text-blue-400">Problem Solving</h2>
           <p className="text-gray-300">
-            I enjoy competitive programming and have solved over <strong>450+ problems</strong> on LeetCode.
-            My current contest rating is <strong>1793</strong>.
+            Active competitive programmer with an <strong>1800+ rating</strong> on LeetCode.
           </p>
           <a
             href="https://leetcode.com/u/vardhanreddy53/"
@@ -51,13 +74,13 @@ function About() {
         </div>
 
         {/* Achievements */}
-        <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up" data-aos-delay="300">
+        <div className="glass-card dark p-6 rounded-lg shadow space-y-4" data-aos="fade-up" data-aos-delay="400">
           <h2 className="text-2xl font-semibold text-blue-400">Achievements</h2>
           <ul className="list-disc list-inside text-gray-300">
-            <li>Diamond Certified Coder at Smart Interviews</li>
-            <li>Ranked 518th globally in IEEE Xtreme 17.0</li>
-            <li>Top 15 in Supraja Technologies CTF</li>
-            <li>AWS Cloud Foundations, Cisco IoT, Google Data Analytics (in progress)</li>
+            <li>Top 3% globally in IEEE Xtreme 17.0</li>
+            <li>1800+ rating on LeetCode</li>
+            <li>Ranked #1 across college in Smart Interviews competitive DSA program; offered TA role</li>
+            <li>AWS Cloud Foundations, Cisco IoT, Google Data Analytics certified</li>
           </ul>
         </div>
       </div>

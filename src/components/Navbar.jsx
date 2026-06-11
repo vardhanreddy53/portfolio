@@ -24,8 +24,9 @@ function Navbar() {
     <nav className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Brand */}
-        <div className="text-2xl font-bold text-blue-600 dark:text-white">
-        </div>
+        <a href="#home" className="text-2xl font-bold text-blue-600 dark:text-white">
+          Vardhan
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6">

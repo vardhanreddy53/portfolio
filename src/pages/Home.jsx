@@ -29,35 +29,35 @@ function Home() {
     <div className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 text-center z-10">
       <div data-aos="fade-up" className="max-w-3xl">
         <h1 className="text-4xl md:text-5xl font-extrabold gradient-text mb-4">
-          Hi, I'm Pathuri Sai Vardhan Reddy
+          Hi, I'm Sai Vardhan Reddy Pathuri
         </h1>
         <p className="text-gray-700 dark:text-gray-300 text-lg md:text-xl mb-6 text-shadow-glow">
-          A Computer Science student passionate about Web Development, AI/ML, and building impactful software products.
+          Master's student in Computer Science at Northeastern University, focused on applied machine learning and production ML systems. Seeking Summer/Fall 2026 internships & co-ops.
         </p>
 
         <div data-aos="fade-up" data-aos-delay="200" className="flex flex-wrap justify-center gap-4 mt-6">
-          <a
-            href="#projects"
-            className="btn-glow bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-blue-700 dark:hover:bg-blue-500 transition"
-          >
-            View Projects
-          </a>
+        <a
+          href="#projects"
+          className="btn-glow bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-blue-700 dark:hover:bg-blue-500 transition"
+        >
+          View Projects
+        </a>
 
-          <a
-            href="#contact"
-            className="btn-glow bg-gray-100 dark:bg-gray-700 dark:text-white text-gray-800 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 dark:hover:bg-gray-600 transition"
-          >
-            View Resume
-          </a>
+        <a
+          href="#about"
+          className="btn-glow bg-gray-100 dark:bg-gray-700 dark:text-white text-gray-800 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 dark:hover:bg-gray-600 transition"
+        >
+          About Me
+        </a>
 
-          <a
-            href="https://leetcode.com/u/vardhanreddy53/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-glow bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg shadow hover:bg-yellow-500 transition"
-          >
-            LeetCode Profile
-          </a>
+        <a
+          href="https://leetcode.com/u/vardhanreddy53/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-glow bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg shadow hover:bg-yellow-500 transition"
+        >
+          LeetCode 1800+
+        </a>
         </div>
       </div>
 
