@@ -32,7 +32,7 @@ function Home() {
           Hi, I'm Sai Vardhan Reddy Pathuri
         </h1>
         <p className="text-gray-700 dark:text-gray-300 text-lg md:text-xl mb-6 text-shadow-glow">
-          Master's student in Computer Science at Northeastern University, focused on applied machine learning and production ML systems. Seeking Summer/Fall 2026 internships & co-ops.
+          I build production ML systems — from OCR pipelines processing real documents to FitOS, a wearable-agnostic health tracking platform I'm building from the ground up. MS Computer Science student at Northeastern, focused on applied ML and the engineering that gets models to actually ship.
         </p>
 
         <div data-aos="fade-up" data-aos-delay="200" className="flex flex-wrap justify-center gap-4 mt-6">

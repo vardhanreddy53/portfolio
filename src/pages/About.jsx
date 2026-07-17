@@ -9,9 +9,8 @@ function About() {
 
         <p className="text-gray-300 text-lg leading-relaxed text-center text-shadow-glow">
           Hi! I'm <strong>Sai Vardhan Reddy Pathuri</strong>, a Master's student in Computer Science at
-          Northeastern University (Khoury College) with a focus on applied machine learning and the
-          engineering work that gets models into production. I'm actively seeking Summer/Fall 2026
-          software engineering and ML internships and co-ops.
+          Northeastern University (Khoury College) concentrating in ML/NLP. I care less about models in notebooks and more about what it takes to get them running reliably in production — the pipelines, the infrastructure, the edge cases.Right now I'm building FitOS, a wearable-agnostic health tracking system that pulls data across devices into one coherent picture — a project born out of wanting infrastructure-level control over my own health data instead of being locked into one vendor's app.
+          I'm drawn to problems at the intersection of ML and systems engineering: making models fast, reliable, and actually useful in the real world.
         </p>
 
         {/* Education */}
